@@ -8,6 +8,7 @@ namespace CarService.Models
     public class CarOutsides
     {
         public long Id { get; set; }
+        public Car car { get; set; }
         public outsides outsidesitem { get; set; }
     }
 }

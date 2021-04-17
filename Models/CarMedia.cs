@@ -8,6 +8,7 @@ namespace CarService.Models
     public class CarMedia
     {
         public long Id { get; set; }
+        public Car car { get; set; }
         public Media media { get; set; }
     }
 }

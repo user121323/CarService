@@ -39,5 +39,6 @@ namespace CarService.Models
         public DbSet<CarSteeringWheel> CarSteeringWheelItems { get; set; }
         public DbSet<CarTransmission> CarTransmissionItems { get; set; }
         public DbSet<CarSpareParts> CarSparePartsItems { get; set; }
+        public DbSet<Car> CarItems{ get; set; }
     }
 }

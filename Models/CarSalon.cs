@@ -8,6 +8,7 @@ namespace CarService.Models
     public class CarSalon
     {
         public long Id { get; set; }
+        public Car car { get; set; }
         public Salon salon { get; set; }
     }
 }
